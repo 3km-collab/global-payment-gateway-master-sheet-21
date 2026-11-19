@@ -1,0 +1,42 @@
+gateway,hq_country,regions,domestic_card_fee,international_fee,payout_speed,subscriptions_support,hosted_checkout,best_for,official_fees_url,status_stamp,dom_pct,dom_fixed,intl_pct
+Stripe,US,Global (46+ countries),2.9% + $0.30 (US cards),+1.5% cross-border,T+2 rolling,Yes (Billing),Yes (Stripe Checkout / Elements),SaaS & platforms,https://stripe.com/pricing,compiled 2026-11,2.9,0.30,1.5
+Adyen,NL,Global,Interchange++ (quote-based),Interchange++ + scheme fees,Daily (T+1 typical),Yes,Yes (Drop-in / HPP),Enterprise platforms,https://www.adyen.com/pricing,compiled 2026-11,,,
+Checkout.com,UK,Global (enterprise),Interchange++ (quote-based),Quote-based,Configurable (daily),Yes,Yes,Enterprise marketplaces,https://www.checkout.com/pricing,compiled 2026-11,,,
+Braintree (PayPal),US,Global (45+ countries),2.59% + $0.49 (US cards),+1% cross-border,T+2/T+3,Yes,Yes,Dev-first stacks,https://www.braintreepayments.com/pricing,compiled 2026-11,2.59,0.49,1
+PayPal,US,Global (200+ markets),3.49% + fixed (domestic checkout),4.4% + fixed (intl.),1-3 business days,Yes (Recurring),Yes (Smart Buttons),Consumer trust / guest checkout,https://www.paypal.com/us/business/paypal-business-fees,compiled 2026-11,3.49,,4.4
+Square,US,US/CA/UK/EU/AU/JP (14+),2.6% + $0.10 (in-person); 2.9% + $0.30 (online),3.5% + $0.15 (cards manually keyed),Next business day,Yes,Yes (Square Checkout),SMB retail + online,https://squareup.com/us/en/pricing,compiled 2026-11,2.6,0.10,3.5
+Klarna,SE,"Global (BNPL, 30+ markets)","3.29% + $0.30 (typical, per plan)",Higher for intl.,Weekly payout (per plan),Yes,Yes (Widgets),BNPL conversion lift,https://www.klarna.com/us/business/pricing/,compiled 2026-11,3.29,0.30,
+Worldpay (FIS),UK,Global (146 countries),Interchange++ (quote),Quote-based,T+1/T+2,Yes,Yes,High-volume retail,https://www.worldpay.com/en-us/what-we-do/pricing,compiled 2026-11,,,
+Mollie,NL,EU/UK (8+ countries),€0.29 + method fee (iDEAL €0.29-€0.69; cards ~1.8% + €0.29... EUR),~1% cross-border uplift,Next business day,Yes,Yes,EU local payment methods,https://www.mollie.com/pricing,compiled 2026-11,1.8,,1
+Razorpay,IN,India + intl. acceptance,~2% + GST (Indian cards/UPI standard plan),3% + GST (intl. cards),T+2/T+3,Yes (Subscriptions),Yes (Checkout.js),Indian market,https://razorpay.com/pricing/,compiled 2026-11,2,,3
+Cashfree,IN,India,1.8% (cards/UPI standard plan),3% + GST,T+1/T+2,Yes,Yes,Lowest-cost INR processing,https://www.cashfree.com/payment-gateway-pricing/,compiled 2026-11,1.8,,3
+PayU India,IN,India + CEE/MENA,~2% + GST (standard),3% + GST,T+2,Yes,Yes,INR + regional,https://payu.in/pricing,compiled 2026-11,2,,3
+HyperPay,SA,MENA (KSA/UAE/EG...),Quote-based (local cards 1.8-2.5% indicative),Quote-based,T+2/T+3 (indicative),Yes,Yes,MENA merchants,https://hyperpay.com/,compiled 2026-11,,,
+Tap Payments,KW,GCC (KSA/UAE/KW/QA/BH/OM),"~2.5-2.9% local cards (indicative, per plan)",+1-2% intl.,T+2 (indicative),Yes,Yes (GoKwik-style hosted),GCC startups,https://www.tap.company/en-sa/developers,compiled 2026-11,2.9,,2
+Moyasar,SA,Saudi Arabia,mada ~1.2% (indicative) / cards ~2.7% + VAT,Intl. cards ~2.9-3.2%,T+2/T+3 (indicative),Yes,Yes,Saudi mada + cards,https://moyasar.com/pricing,compiled 2026-11,1.2,,3.2
+PayTabs,SA,MENA + 168 countries,From ~2.85% + fixed (indicative per plan),From ~3.5%,T+2/T+3 (indicative),Yes,Yes,MENA/SEASA merchants,https://paytabs.com/pricing/,compiled 2026-11,2.85,,3.5
+Network International,AE,MENA (UAE/EG/JO...),Interchange++ (quote),Quote-based,T+1/T+2 (indicative),Yes,Yes,MENA acquiring (POS+online),https://www.network.ae/,compiled 2026-11,,,
+Fawry,EG,Egypt,~2-2.75% (indicative; cash network dominant),Quote-based,T+2/T+3 (indicative),Yes,Yes,Egyptian cash+card mass market,https://fawryplus.com/,compiled 2026-11,2.75,,
+Paymob,EG,Egypt + Pakistan,~2.75% cards (indicative per plan),Quote-based,T+2/T+3 (indicative),Yes,Yes,Egypt/Pakistan omnichannel,https://paymob.com/,compiled 2026-11,2.75,,
+Paystack,NG,Nigeria/Ghana/ZA/KE,"1.5% local (cap ₦2,000)",3.9% + fixed,T+1 (next day),Yes,Yes (Popup/Inline),West Africa,https://paystack.com/pricing,compiled 2026-11,1.5,,3.9
+Flutterwave,NG,Africa (34+ countries),~1.4% local (cap negotiable),3.8% + fixed,T+1/T+2,Yes,Yes (Standard/Inline),Pan-African payments,https://flutterwave.com/us/pricing,compiled 2026-11,1.4,,3.8
+dLocal,UY,Emerging markets (40+),Quote-based (local APMs),Quote-based,Weekly/monthly (configurable),Yes,Yes (400+ APMs),EM rail for global merchants,https://dlocal.com/pricing,compiled 2026-11,,,
+Rapyd,IL,Global (100+ countries),From ~1.2% + fixed (indicative),Quote-based,Configurable,Yes,Yes,Fintech-as-a-service + payouts,https://www.rapyd.net/pricing/,compiled 2026-11,1.2,,
+Airwallex,AU,Global (60+ FX currencies),"From 1.0% + $0.40 (indicative, per plan)",Included in base (indicative),T+1/T+3,Yes,Yes,Cross-border SaaS,https://www.airwallex.com/pricing,compiled 2026-11,1.0,0.40,
+Paddle,GB,Global (Merchant of Record),5% + $0.50,Included (MoR handles VAT/sales tax),T+15 (twice monthly),Yes,Yes,Selling software worldwide (tax handled),https://www.paddle.com/pricing,compiled 2026-11,5,0.50,
+FastSpring,US,Global (Merchant of Record),~8.9% + $1.35 (standard plan),Included (tax handled),Monthly net-15 (typical),Yes,Yes,Software + subscriptions w/ tax compliance,https://fastspring.com/pricing/,compiled 2026-11,8.9,1.35,
+Lemon Squeezy,US,Global (Merchant of Record),5% + $0.50,Included (tax handled),T+5 (weekly-ish),Yes,Yes (Lemon.js),"Digital products, indie SaaS",https://www.lemonsqueezy.com/pricing,compiled 2026-11,5,0.50,
+Gumroad,US,Global (Merchant of Record),10% flat (this store's platform),Included (MoR),Weekly,Yes,Yes (embed/store),Creators & digital files,https://gumroad.com/pricing,compiled 2026-11,10,,
+Authorize.Net,US,US/CA/UK/EU/AU,$25/mo gateway + 2.9% + $0.30 (via processor),+1.5% intl. (typical),T+2 (via processor),Yes,Yes (Hosted form),Legacy US stacks,https://www.authorize.net/solutions/merchantsolutions/pricing/,compiled 2026-11,2.9,0.30,1.5
+Amazon Pay,US,US/UK/DE/JP/FR/IT/ES,2.9% + $0.30 (domestic),3.5% + $0.30 (cross-border),Next business day,Yes,Yes (Buy Now button),Amazon-logged-in shoppers,https://pay.amazon.com/pricing,compiled 2026-11,2.9,0.30,3.5
+WePay (J.P. Morgan),US,US (platforms),2.95% + $0.25 (standard),Quote-based,T+2/T+3,Yes,Yes,Platform payments for banks' clients,https://go.wepay.com/pricing,compiled 2026-11,2.95,0.25,
+Alipay (Cross-border),CN,China inbound/outbound,0.6% (typical merchant rate),0.6-1.2% (indicative),T+1/T+2,Yes,Yes (QR/SDK),Chinese consumer reach,https://global.alipay.com/,compiled 2026-11,0.6,,1.2
+WeChat Pay,CN,China,0.6% (typical merchant rate),0.6-1.2% (indicative),T+1/T+2,Yes,Yes,Chinese consumer reach,https://pay.weixin.qq.com/index.php/core/home/login,compiled 2026-11,0.6,,1.2
+Mercado Pago,AR,LatAm (18 countries),~3.49% cards (BR online indicative) / PIX 0.99%,Quote-based,T+2/T+14 (per plan),Yes,Yes (Checkout Pro),LatAm marketplaces,https://www.mercadopago.com.br/custos,compiled 2026-11,3.49,,
+iyzico,TR,Turkey,"2.59% + ₺1.00 (cards, indicative)",+2% intl.,Next business day,Yes,Yes,Turkish market,https://www.iyzico.com/en/pricing,compiled 2026-11,2.59,,2
+Trustly,SE,EU/US (bank transfers),Quote-based (from ~0.99% indicative),n/a (bank rails),Settles T+1/T+2,Yes,Yes (bank redirect),EU open-banking checkout,https://www.trustly.com/pricing,compiled 2026-11,,,
+iDEAL (via PSP),NL,Netherlands,€0.29-€0.69/transaction (via PSP),n/a (bank rails),Next business day,Yes,Yes,Dutch checkout standard,https://www.ideal.nl/,compiled 2026-11,,,
+UPI (merchant),IN,India,"0-0.3% MDR (regulated, small merchants 0%)",n/a (bank rails),T+0/T+1,Yes (via PSPs),Yes (intent/intent QR),Indian QR payments,https://www.npci.org.in/what-we-do/upi,compiled 2026-11,0.3,,
+PIX (via PSP),BR,Brazil,"0.99%-1.5% (via PSP, indicative)",n/a (bank rails),T+0/T+1,Yes,Yes (QR),Brazil instant payments,https://www.bcb.gov.br/estabilidadefinanceira/pix,compiled 2026-11,0.99,,
+SEPA Instant (via PSP),EU,Eurozone,€0.03-€0.20/transaction (indicative via PSP),n/a (bank rails),Seconds (instant),Yes (via PSPs),Yes,EU bank-to-bank checkout,https://www.ecb.europa.eu/paym/integration/instantpayments/html/index.en.html,compiled 2026-11,,,
+Stripe Treasury / Connect,US,Global (Stripe countries),Platform fees per Stripe pricing (0.4%+ payout),n/a,n/a,Yes,n/a,Marketplace onboarding & payouts,https://stripe.com/connect/pricing,compiled 2026-11,0.4,,
