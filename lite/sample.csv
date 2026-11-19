@@ -1,51 +1,11 @@
-id,name,category,region,value_usd,quantity,score,active,updated_at
-R100000,Apex Real Estate 0,Real Estate,North America,1801.65,294,24.0,False,2024-07-21
-R100001,Summit Healthcare 1,Healthcare,LATAM,1421.05,292,17.5,False,2025-06-02
-R100002,Peak Fintech 2,E-Commerce,MEA,4683.27,117,31.1,True,2025-02-25
-R100003,Cedar Energy 3,Retail,LATAM,89.26,467,90.3,True,2024-12-18
-R100004,Quantum Real Estate 4,SaaS,APAC,1223.82,319,42.3,False,2024-09-29
-R100005,Nova Retail 5,Retail,North America,2491.06,97,87.8,False,2024-02-08
-R100006,Orbit Fintech 6,Energy,APAC,4724.5,183,43.7,False,2025-02-18
-R100007,Blue Fintech 7,Manufacturing,Europe,2209.12,183,13.5,True,2024-09-21
-R100008,Lumen E-Commerce 8,Healthcare,APAC,2431.13,258,44.1,True,2024-06-01
-R100009,Lumen Fintech 9,Retail,North America,3595.73,416,83.8,True,2025-05-26
-R100010,Cedar Retail 10,Education,LATAM,4334.23,138,91.9,True,2025-06-07
-R100011,Lumen E-Commerce 11,Education,Europe,575.92,430,18.8,True,2025-05-10
-R100012,Lumen Manufacturing 12,Healthcare,MEA,3166.09,154,49.6,False,2024-06-10
-R100013,Quantum Logistics 13,Real Estate,APAC,4685.22,333,82.7,False,2024-03-02
-R100014,Orbit Healthcare 14,Logistics,APAC,918.92,430,25.7,False,2024-11-01
-R100015,Blue Manufacturing 15,Healthcare,MEA,1847.35,204,34.8,False,2025-02-18
-R100016,Nova Healthcare 16,Real Estate,MEA,2323.45,3,49.3,True,2025-05-11
-R100017,Quantum Healthcare 17,Energy,Europe,3013.86,411,75.1,True,2025-04-04
-R100018,Quantum Fintech 18,E-Commerce,Europe,1497.34,198,30.7,False,2025-11-21
-R100019,Blue Retail 19,Healthcare,MEA,1561.16,280,81.6,True,2025-09-17
-R100020,North Education 20,Education,North America,1115.67,410,73.9,False,2024-08-20
-R100021,Vertex Manufacturing 21,Retail,APAC,2778.77,278,61.8,True,2024-01-05
-R100022,Cedar Retail 22,Energy,Europe,3941.71,300,58.0,True,2024-10-29
-R100023,Nova Education 23,E-Commerce,North America,944.54,2,29.1,True,2024-10-19
-R100024,Blue Education 24,Logistics,APAC,2104.43,85,52.2,False,2025-08-29
-R100025,Blue SaaS 25,Real Estate,North America,4266.12,3,24.0,False,2025-09-03
-R100026,Alpha Retail 26,Logistics,North America,2139.49,423,13.7,True,2024-11-17
-R100027,Nova Healthcare 27,Manufacturing,LATAM,450.15,465,32.2,False,2024-03-06
-R100028,Bright Manufacturing 28,Healthcare,MEA,4598.46,101,99.7,True,2025-02-04
-R100029,Prime Healthcare 29,SaaS,APAC,2658.09,28,80.4,True,2025-01-22
-R100030,Quantum Retail 30,E-Commerce,MEA,3749.69,224,14.7,False,2025-06-26
-R100031,Peak Logistics 31,E-Commerce,LATAM,1624.81,33,95.0,True,2024-01-04
-R100032,Summit SaaS 32,E-Commerce,MEA,2230.93,253,30.6,False,2025-07-27
-R100033,Apex E-Commerce 33,Retail,MEA,2537.07,250,18.5,False,2025-05-30
-R100034,Peak Education 34,E-Commerce,North America,4185.75,36,10.6,True,2024-08-29
-R100035,Apex Healthcare 35,Fintech,North America,1087.39,64,15.8,False,2024-11-17
-R100036,Cedar E-Commerce 36,E-Commerce,North America,3172.88,302,94.0,False,2025-03-10
-R100037,Apex Energy 37,Healthcare,LATAM,1446.81,460,48.4,True,2025-11-29
-R100038,Orbit Energy 38,E-Commerce,Europe,1485.62,28,73.0,False,2024-05-10
-R100039,Peak SaaS 39,Education,North America,521.88,487,19.7,True,2024-09-23
-R100040,Apex SaaS 40,Manufacturing,APAC,455.75,115,46.6,True,2025-07-03
-R100041,Blue E-Commerce 41,E-Commerce,LATAM,3132.07,427,51.8,True,2024-12-04
-R100042,Orbit Education 42,Real Estate,APAC,337.6,244,14.2,False,2025-02-10
-R100043,Bright Education 43,Retail,Europe,1993.71,10,39.5,True,2025-01-24
-R100044,Blue SaaS 44,SaaS,MEA,198.27,157,69.5,True,2024-06-25
-R100045,Vertex Energy 45,Manufacturing,APAC,3922.82,28,59.0,False,2025-06-26
-R100046,Cedar E-Commerce 46,Retail,APAC,1552.62,272,9.3,False,2024-10-28
-R100047,Cedar SaaS 47,Energy,APAC,939.72,170,16.5,True,2024-09-21
-R100048,Prime Healthcare 48,Real Estate,MEA,2960.37,413,98.5,True,2025-04-09
-R100049,Prime Education 49,Retail,APAC,2958.67,249,29.8,True,2025-10-24
+gateway,hq_country,regions,domestic_card_fee,international_fee,payout_speed,subscriptions_support,hosted_checkout,best_for,official_fees_url,status_stamp,dom_pct,dom_fixed,intl_pct
+Stripe,US,Global (46+ countries),2.9% + $0.30 (US cards),+1.5% cross-border,T+2 rolling,Yes (Billing),Yes (Stripe Checkout / Elements),SaaS & platforms,https://stripe.com/pricing,compiled 2026-11,2.9,0.30,1.5
+Adyen,NL,Global,Interchange++ (quote-based),Interchange++ + scheme fees,Daily (T+1 typical),Yes,Yes (Drop-in / HPP),Enterprise platforms,https://www.adyen.com/pricing,compiled 2026-11,,,
+Checkout.com,UK,Global (enterprise),Interchange++ (quote-based),Quote-based,Configurable (daily),Yes,Yes,Enterprise marketplaces,https://www.checkout.com/pricing,compiled 2026-11,,,
+Braintree (PayPal),US,Global (45+ countries),2.59% + $0.49 (US cards),+1% cross-border,T+2/T+3,Yes,Yes,Dev-first stacks,https://www.braintreepayments.com/pricing,compiled 2026-11,2.59,0.49,1
+PayPal,US,Global (200+ markets),3.49% + fixed (domestic checkout),4.4% + fixed (intl.),1-3 business days,Yes (Recurring),Yes (Smart Buttons),Consumer trust / guest checkout,https://www.paypal.com/us/business/paypal-business-fees,compiled 2026-11,3.49,,4.4
+Square,US,US/CA/UK/EU/AU/JP (14+),2.6% + $0.10 (in-person); 2.9% + $0.30 (online),3.5% + $0.15 (cards manually keyed),Next business day,Yes,Yes (Square Checkout),SMB retail + online,https://squareup.com/us/en/pricing,compiled 2026-11,2.6,0.10,3.5
+Klarna,SE,"Global (BNPL, 30+ markets)","3.29% + $0.30 (typical, per plan)",Higher for intl.,Weekly payout (per plan),Yes,Yes (Widgets),BNPL conversion lift,https://www.klarna.com/us/business/pricing/,compiled 2026-11,3.29,0.30,
+Worldpay (FIS),UK,Global (146 countries),Interchange++ (quote),Quote-based,T+1/T+2,Yes,Yes,High-volume retail,https://www.worldpay.com/en-us/what-we-do/pricing,compiled 2026-11,,,
+Mollie,NL,EU/UK (8+ countries),€0.29 + method fee (iDEAL €0.29-€0.69; cards ~1.8% + €0.29... EUR),~1% cross-border uplift,Next business day,Yes,Yes,EU local payment methods,https://www.mollie.com/pricing,compiled 2026-11,1.8,,1
+Razorpay,IN,India + intl. acceptance,~2% + GST (Indian cards/UPI standard plan),3% + GST (intl. cards),T+2/T+3,Yes (Subscriptions),Yes (Checkout.js),Indian market,https://razorpay.com/pricing/,compiled 2026-11,2,,3
