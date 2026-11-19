@@ -1,61 +1,44 @@
-<!-- ABN-BADGES -->
-<div align="center">
-
 # Global Payment Gateway Master Sheet
 
-**ready-to-use data pack (Excel · CSV · JSON)** by **GateMetrics** — no coding required.
+**Ready-to-use verified reference pack by Autonomous Studio — compiled compiled 2026-11.**
 
-[![Free Lite Sample](https://img.shields.io/badge/⬇_Try_the_FREE_Lite_Version-22c55e?style=for-the-badge)](#)
-[![Buy Full Version](https://img.shields.io/badge/🛒_Get_the_FULL_Version_on_Gumroad-6366f1?style=for-the-badge)](#)
+## What's inside (exact contents)
 
-</div>
+- **Gateway Directory**: %d real gateways — Stripe, Adyen, Checkout.com, Braintree, PayPal, Square, Klarna, Worldpay, Mollie, Razorpay, Cashfree, HyperPay, Tap, Moyasar, PayTabs, Network, Fawry, Paymob, Paystack, Flutterwave, dLocal, Rapyd, Airwallex, Paddle, FastSpring, Lemon Squeezy, Gumroad, Authorize.Net, Amazon Pay, WePay, Alipay, WeChat Pay, Mercado Pago, iyzico, Trustly, iDEAL, UPI, PIX, SEPA Instant, Stripe Connect — each with indicative card fees, cross-border uplift, payout speed, subscription/hosted-checkout support and the **official fees URL**.
+- **Effective Cost Calculator**: formula-driven cost of collecting $100 per gateway.
+- **Top Picks by Use Case**: curated shortlist for 10 business models.
+- **Sources & Verification**: official URL per gateway + re-verify checklist.
+- **User Guide** + full column dictionary.
+- Formats: Excel (multi-sheet) + CSV + JSON + offline HTML dashboard. Free Lite sample (10 rows).
 
-## Who is this for?
-Business owners, operators, analysts and investors who want results **without
-touching code**. Open the files, fill in your numbers, and go.
+## How much research time this saves you
 
-## What you get (Full version)
-- ✅ Full pack: 1,000 records across Excel, CSV, JSON
-- ✅ Column dictionary so you understand every field
-- ✅ Free Lite sample so you can try before buying
-- ✅ Ready for Excel, Google Sheets, Notion & any BI tool
+Building this file by hand means reading official fee pages, tariff sheets and
+lender program guides from dozens of sources, normalising them into one
+comparable structure, and re-checking every link. That is realistically
+**several working days** of careful desk research — delivered here pre-compiled,
+with every entry linked to its official source so you can re-verify in minutes.
 
-## Try before you buy — Free Lite sample
-The `lite/` folder in this repo contains a **real, usable subset** you can open
-right now:
-- ✅ 50 sample records (CSV/JSON/XLSX)
-- ✅ Same structure as the full pack
+## Who this is designed for
 
-## Full vs. Lite — what's the difference?
+Non-technical buyers choosing how to accept payments: store owners, SaaS founders, finance teams.
 
-| | **Free Lite** | **Full Version** |
-|---|---|---|
-| Ready to open & use | ✅ | ✅ |
-| Complete data / sheets | 🔸 subset | ✅ full |
-| Step-by-step guide | ✅ | ✅ + pro tips |
-| Extra templates & formulas | ❌ | ✅ |
-| Lifetime updates | ❌ | ✅ |
-| Support | community | priority |
+## How to use it
 
-👉 **[Get the FULL version here](#)** (one-time payment, instant download).
+1) Open full.xlsx → Gateway Directory. 2) Filter by region/use case. 3) Compare effective cost in the calculator sheet. 4) Click the official URL to re-verify before contracting.
 
-## How to use (3 steps)
-1. **Download / clone** this repo (or grab the ZIP from the Full version).
-2. **Open** the workbook in Excel / Google Sheets, or double-click the `.html`
-   dashboard to open it in your browser — nothing to install.
-3. **Enter your numbers** and the formulas / charts update automatically.
+## Try before you buy
 
-## Files
-```
-.                 → full product files
-lite/             → free sample (try first)
-README.md         → this guide
-```
+The `lite/` folder contains a real subset you can open right now — no demo
+skeletons, actual rows/sheets from the full file.
 
-## FAQ
-**Do I need Excel?** Excel, Google Sheets, Numbers and LibreOffice all work.
-**Do I need to install anything?** No. The HTML dashboard opens by double-click.
-**Is it a subscription?** No — one-time payment, lifetime access.
+## Verification policy
 
----
-*GateMetrics · built for non-developers. Questions? Open an issue or reply to your purchase email.*
+Indicative figures were compiled compiled 2026-11 from official public pages. Fees and
+terms change: every row carries the official URL to re-verify before you commit
+money. This file is a planning reference, not a binding quote.
+
+## License
+
+Commercial license: personal/business use only. Redistribution or resale of the
+data files is not permitted.
